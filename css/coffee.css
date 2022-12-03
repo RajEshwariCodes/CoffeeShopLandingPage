@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+.backgroundimage{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: #333333;
+}
+.backgroundimage img{
+    height:100vh;
+    width: 100vw;
+    contain: content;
+    opacity:21%;
+}
+.nav1{
+    height:4rem;
+    width:100vw;
+    display: flex;
+}
+.righr-top-logo{
+    width:50%;
+    height: 4em;
+    position: absolute;
+    min-width:50%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 1rem;
+    margin:auto;
+}
+.righr-top-logo img{
+    height: 2.5rem;
+    width:2.5rem;
+    border-radius: 50%;
+}
+.left-top-logo{
+    width:39%;
+    height: 4rem;
+    float:right;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    left:56rem;
+    color:white;
+}
+#contact{
+    position: absolute;
+    right:15rem;
+    cursor: pointer;
+}
+#locations{
+    position: absolute;
+    right:7rem;
+    cursor: pointer;
+}
+.left-top-logo a{
+    text-decoration: none;
+    all: unset;
+    color:white;
+}
+.nav2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height:3rem;
+    width:100vw;
+    background-color: #353131;
+    justify-content:center;
+    border: 1px solid #242121;
+}
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    justify-content:center;
+    font-size: 1.2rem;
+}
+.nav2 ul a{
+    all:unset;
+color:white;
+}
+.nav ul li{
+    list-style: none;
+}
+#coffee,#product,#beans,#cakes,#bakery,#offers{
+    width:6rem;
+    text-decoration: none;
+    text-align: center;
+    
+    cursor: pointer;
+}
+#coffee{
+    color:#CEC4C4 ;
+}
+#product{
+    color:#806060 ;
+}
+#beans{
+    color:#988686 ;
+}
+#cakes{
+    color:#918888 ;
+}
+#bakery{
+    color:#DCC4C4 ;
+}
+#offers{
+    color: #F7EEEE;
+}
+.body{
+    position: absolute;
+    z-index: 1;
+    width:100vw;
+    height:80vh;
+    top:7rem;
+    display: flex;
+    flex-direction: column;
+}
+.name-slogan-buttons{
+    width:100vw;
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    font-family: 'Comfortaa', cursive;
+}
+.orderbutton{
+    display: flex;
+    width:20rem;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    color:white;
+
+}
+.orderbutton ul{
+    display: flex;
+    list-style-type:none;
+}
+.orderbutton li{
+   width:-2rem;
+   height:2.5rem;
+   color:white;
+}
+.orderbutton button{
+    opacity:16%;
+    width:6rem;
+    height:2.5rem;
+    color:rgb(15, 1, 1);
+font-size: 1.4rem;
+padding-left: 1rem;
+}
+.name{
+    font-size: 7rem;
+    color:#EBEBEB;
+    opacity:52%;
+}
+.slogan{
+    font-size: 2.4rem;
+    color:#EBEBEB;
+    text-align: center;
+}
+.location-rating-offercode a{
+    all: unset;
+    color:white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.location-rating-offercode{
+    width:30vw;
+    height:2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.timepass{
+    height:100vh;
+    width:100vh;
+}
+.eat{
+    height:139vh;
+    width:100vw;
+    display:grid;
+   
+    position:relative;
+    grid-template-columns: 1px 1px 1px 1px 1px 1px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-gap: 50px;
+}
+.coffe-part{
+    height:18rem;
+    width:100vw;
+    display:grid;
+    grid-column-gap: 20px ;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px;
+    
+    grid-row-start: 1;
+    grid-row-end: 19;
+}
+.cakes{
+    height:18rem;
+    width:100vw;
+    display:grid;
+    grid-column-gap: 56px ;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px ;
+    grid-row-start:-4;
+    grid-row-end: 6;
+}
+.card1{
+    height:14rem;
+    width:10rem;
+    padding: 1rem;
+    padding-left: 1rem;
+    background-color: rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter:blur(5px);
+    border-radius: 15px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 20PX 20PX 50PX rgba(0,0,0,0.5);
+}
+.card1 img{
+    height: 8rem;
+    width: 9rem;
+}
+.written{
+    height:6rem;
+    width:5rem;
+}
+.card1 button,#addcart{
+    width:2rem;
+    height:2rem;
+}
+
+
+.food-name{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+.car1-inner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;    
+}
+.offers{
+    height:14rem;
+    width:30rem;
+position: relative;
+top:44rem;
+}
+.horizontalcard{
+    height:14rem;
+    width:30rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   position: relative;
+    transform-style: preserve-3d;
+    box-shadow:  20PX 20PX 50PX rgba(0,0,0,0.5) ;
+}
+
+.face{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    color:rgb(1, 8, 15);
+}
+.horizontalcard .face {
+    height:14rem;
+    width:30rem; 
+    position: absolute;
+    top:0;
+    left:0;
+    transform-style: preserve-3d;
+    display: flex;
+    backface-visibility: hidden;
+    transition: 1s ease-in-out;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.horizontalcard .face .front{
+ background-color: #242121;
+color:white;
+transform: perspective(500px) rotateY(180deg);
+}
+.horizontalcard:hover .face .front{
+    background-color: #242121;
+   color:white;
+   transform: perspective(500px) rotateY(180deg);
+   }
+.horizontalcard .face .back{
+    background-color: #471212;
+    color:white;
+    transform: perspective(500px) rotateY(180deg);
+   }
+   .horizontalcard:hover .face .back{
+    transition: 2s ease-in-out;
+    transform: perspective(500px) rotateY(360deg);
+}   
+
+
+
+
+.horizontalcard:hover {
+    transition: 2s ease-in-out;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.face img{
+    height:14rem;
+    width:30rem;
+}
+
+.about-our-coffee{
+    height:40rem;
+    width:100vw;
+    display: grid;
+    grid-gap:50px 100px;
+    grid-row-start: 1;
+  grid-row-end: 3;
+  grid-template-columns:  400px 400px 400px;
+    background-color: #DCC4C4;
+    position: absolute;
+    align-items: center;
+    margin: auto;
+} 
+.card1-coffee{
+  height: 33rem;
+    width:24rem;
+    border-radius: 20px;
+}
+.beans1{
+    position: absolute;
+    z-index: 1;
+    height: 33rem;
+    width:24rem;
+    border-radius: 20px;
+    box-shadow:  20PX 20PX 62PX 10px rgba(54, 49, 49, 0.5) ;
+}
+.beans1 img{
+    height: 33rem;
+    width:24rem;
+    border-radius: 20px;
+}
+.beans1:hover{
+    transition: 2s;
+   display: none;
+}
+.beans1::after{
+    display: block; 
+}
+
+.text-part {
+    height: 33rem;
+    width:24rem;
+    position: absolute;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+.text-part h3{
+    font-size: 5rem;
+    text-align: center;
+
+}
+.text-part p{
+    text-align: center;
+    padding:2rem;
+}
+
+.card12-coffee{
+    height: 33rem;
+      width:24rem;
+      border-radius: 20px;
+  }
+  .beans12{
+      position: absolute;
+      z-index: 1;
+      height: 33rem;
+      width:24rem;
+      border-radius: 20px;
+      box-shadow:  20PX 20PX 62PX 10px rgba(54, 49, 49, 0.5) ;
+  }
+  .beans12 img{
+      height: 33rem;
+      width:24rem;
+      border-radius: 20px;
+  }
+  .beans12:hover{
+      transition: 2s;
+     display: none;
+  }
+  .beans12::after{
+      display: block; 
+  }
+ 
+  .text-part {
+      height: 33rem;
+      width:24rem;
+      position: absolute;
+      background-color: #EBEBEB;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      
+  }
+  .text-part h3{
+      font-size: 3rem;
+      text-align: center;
+  
+  }
+
+  .text-part p{
+      text-align: center;
+      padding:2rem;
+  }
+.card13-coffee{
+    height: 33rem;
+      width:24rem;
+      border-radius: 20px;
+  }
+  .beans13{
+      position: absolute;
+      z-index: 1;
+      height: 33rem;
+      width:24rem;
+      border-radius: 20px;
+      box-shadow:  20PX 20PX 62PX 10px rgba(54, 49, 49, 0.5) ;
+  }
+  .beans13 img{
+      height: 33rem;
+      width:24rem;
+      border-radius: 20px;
+  }
+  .beans13:hover{
+      transition: 2s;
+     display: none;
+  }
+  .beans13::after{
+      display: block; 
+  }
+  
+  .text-part {
+      height: 33rem;
+      width:24rem;
+      position: absolute;
+      background-color: #EBEBEB;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      font-family: 'Comfortaa', cursive;
+  }
+  .text-part h3{
+      font-size: 3rem;
+      text-align: center;
+  
+  }
+  .text-part p{
+    text-align: center;
+    padding:2rem;
+}
+.buy-beans-now{
+    height:2rem;
+    width:11rem;
+    background-color: #EBEBEB;
+    border:1px solid black;
+    border-radius: 20px;
+    z-index: 1;
+    
+}
+.buy-beans-now button{
+    height:2rem;
+    width:11rem;
+    top:20rem;
+}
+.about-userexperience{
+    height:30rem;
+    width:100vw;
+    position:absolute;
+    top:152rem;
+    background-color: #3b3a3a;
+}
+.imagebg{
+    height:30rem;
+    width:65vw;
+    position: absolute;
+    display: flex;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+}
+.imagebg img{
+    height:30rem;
+    width:55vw;
+    position: absolute;
+    z-index: 10;
+}
+#usertalk{
+    
+    z-index: 100;
+}
